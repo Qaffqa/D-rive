@@ -4,6 +4,7 @@ package model;
  *
  * @author daniel
  */
+
 public class Location {
     
     private double latitude;
@@ -54,4 +55,7 @@ public class Location {
                ", description='" + description + '\'' +
                '}';
     }
+   /**
+    * METHODOLOGY TODO
+    */
 }

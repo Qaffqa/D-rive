@@ -1,13 +1,46 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package model;
 
 /**
  *
- * @author danie
+ * @author daniel
  */
 public class RandomPoint {
+    
+    private Location location;
+    private String description;
+    
+    public RandomPoint(Location location) {
+        this.location = location;
+        this.description = "Randomly generated point";
+    }
+
+    public RandomPoint(Location location, String description) {
+        this.location = location;
+        this.description = description;
+    }
+
+    public Location getLocation() {
+        return location;
+    }
+
+    public void setLocation(Location location) {
+        this.location = location;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    @Override
+    public String toString() {
+        return "RandomPoint"
+                + "location: " + location + 
+                ", description: " + description;
+    }
+    
     
 }

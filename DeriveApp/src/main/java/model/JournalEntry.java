@@ -6,6 +6,7 @@ import java.time.LocalDateTime;
  *
  * @author daniel
  */
+
 public class JournalEntry {
     
     private String title;
@@ -66,5 +67,8 @@ public class JournalEntry {
                ", dateCreated=" + dateCreated +
                ", location=" + location +
                '}';
-    }    
+    }
+   /**
+    * METHODOLOGY TODO
+    */    
 }

@@ -70,5 +70,7 @@ public class User {
                '}';
     }
     
-    
+   /**
+    * METHODOLOGY TODO
+    */
 }
